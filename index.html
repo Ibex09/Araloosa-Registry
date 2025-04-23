@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Araloosa Registry</title>
+    <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="Styles/navigation.css"/>
@@ -11,25 +12,25 @@
 <body>
     <!-- Navigation Bar-->
     <div class="navMainContainer">
-        <div class="logoContainer">
+        <div class="nav001"> <!-- 1st Div-->
             <img src="Images/Logo.png" alt=""/>
         </div>
-        <div class="titleContainer">
-            <p class="titleName">International Araloosa Horse Registry </p>   
+        <div class="nav002 tblt"><!-- 2nd Div-->
+            <p class="ttl001">International Araloosa Horse Registry</p>   
         </div>
-        <div class="menuBtnContainer">
+        <div class="nav003"><!--3rd Div-->
             <button class="menuBtn" id="menuBtn" onclick="offcanvasToggle(true)"><i class="fas fa-bars"></i></button>
         </div>
-        <div class="navMenuContainer">
-            <a href="#">Home</a>
-            <a href="#">The Araloosa</a>
-            <a href="#">Registration</a>
-            <a href="#">News and Events</a>
-            <a href="#">Contact Us</a>
+        <div class="nav004"><!--4th Div-->
+            <a href="#" id="Deskactive"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-horse-head"></i> The Araloosa</a>
+            <a href="#"><i class="fas fa-file"></i> Registration</a>
+            <a href="#"><i class="fas fa-newspaper"></i> News and Events</a>
+            <a href="#"><i class="fas fa-phone"></i> Contact Us</a>
         </div>
-
-        
     </div>
+
+
     <!-- Overlay -->
     <div for="toggle" class="overlay" id="overlay" onclick="offcanvasToggle(false)"></div>
     <!-- offCanvas -->
