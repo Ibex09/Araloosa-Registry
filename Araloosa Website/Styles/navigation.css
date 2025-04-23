@@ -1,0 +1,216 @@
+body{
+    margin: auto;
+    padding: 0;
+}
+/* Mobile Size */
+@media screen and (min-width: 320px) {
+    .navMainContainer{
+        background-image: url(../Images/navBg.png);
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        
+    }
+    .nav004{
+        display:none;
+    }
+    .nav002{
+        grid-column: 2/4;
+        font-size: 20px;
+        color: #EAE3DF;
+        font-weight: lighter;
+    }
+    .nav002 > .ttl001{
+        font-weight: bold;
+    }
+    .menuBtn{
+        padding: 5px;
+        width: 30px;
+        font-size: 23px;
+        margin:0;
+        top: 50%;
+        -ms-transform: translateY(50%);
+        transform: translateY(50%);
+        float:right;
+        margin-right: 20px;
+        cursor: pointer;
+        border: none;
+        background:none;
+        color: #EAE3DF;
+    }
+    .nav001{
+        width: 100px;
+    }
+    .nav001 > img{
+        width: 100px;
+        position: absolute;
+        margin-top: 10px;
+    }
+
+    /* Offcanvas Style */
+    .offcanvas{
+        /* border: 1px solid red; */
+        float: right;
+        position:fixed;
+        background-image: url(../Images/bg.png);
+        background-size:cover;
+        top:0;
+        right:-250px;
+        width: 250px;
+        height: 100vh;
+        transition: right 0.3s ease;
+        z-index:1000;
+    }
+    .offcanvasToggle{
+        right:0;
+    }
+    .offcanvasMenu{
+        padding: 5px;
+    }
+    .ocmCont{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ocmCont > .ocm{
+        border-radius: 10px;
+        border:none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        cursor: pointer;
+        text-decoration: none;
+        background: none;
+        color:#1F1F1F;
+        font-size: 16px;
+        text-align: start;
+    }
+    .ocm:hover{
+        background-image:url(../Images/navBg.png);
+        background-size: cover;
+        color:#EAE3DF;
+    }
+    .closeBtn{
+        font-size: 30px;
+        border-radius: 50px;
+        color: #EAE3DF;
+        background: none;
+        border: none;
+    }
+    .ol{
+        width: 100px;
+    }
+    #active{
+        background-image:url(../Images/navBg.png);
+        background-size: cover;
+        color:#EAE3DF;
+    }
+
+    /* **************** */
+    
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* dark background */
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease;
+        z-index: 900;
+      }
+        .showOverlay {
+        opacity: 1;
+        visibility: visible;
+      }
+      
+      .offcanvas.show {
+        right: 0;
+      }
+}
+
+/* Tablet Size */
+@media  screen and (min-width: 610px) {
+    .navMainContainer{
+        display: block;
+        height: 80px;
+    }
+    .tblt{
+        position: absolute;
+        width: 70vw;
+        left: 100px;
+        margin-top: 5px;
+    }
+}
+/* Desktop Size */
+@media screen and (min-width: 1024px) {
+    .navMainContainer{
+        display: block;
+        height: 100px;
+    }
+    .nav001 > img{
+        width: 130px;
+    }
+    .tblt{
+        left: 0;
+        margin-top: 0;
+    }
+    .nav002{
+        position: absolute;
+        margin-left: -120px;
+    }
+    .nav004{
+        position: relative;
+        margin-left: 150px;
+        top: 50px;
+        width: 650px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        z-index: 1;
+        display: block;
+        
+    }
+    .nav004::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/bg.png);
+        background-size: cover;
+        background-position: 50px;
+        opacity: 70%; /* Adjust the opacity here */
+        border-radius: 5px;
+        z-index: -1;
+    }
+    .nav004 > a{
+        text-decoration: none;
+        font-size: 18px;
+        margin-right: 18px;
+        color: #1F1F1F;
+    }
+    #Deskactive{
+        color: #623F28;
+        /* font-weight: bold; */
+    }
+    .nav004 > a:hover{
+        color: #623F28;
+    }
+    .nav002{
+        border: none; 
+        position: absolute;
+        margin-left: 150px;
+        height: 50px;
+    }
+    .nav003{
+        display:none;
+    }
+    .ttl001{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    
+}
