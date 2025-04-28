@@ -221,6 +221,9 @@
         width: 100%;
         margin: auto;
     }
+    br{
+        display: block;
+    }
     .hgrids{
         color: #FCF7F2;
         float: left;
@@ -229,10 +232,12 @@
         width: 500px;
     }
     .hgrids>h1{
-        font-style: italic  ;
+        font-style: italic;
+        font-size: 30px;
     }
     .hgrids>p{
         font-size: 18px;
+        font-weight: lighter;
     }
     .hgrids>img{
         width: 800px;
