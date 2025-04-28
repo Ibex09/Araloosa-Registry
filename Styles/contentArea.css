@@ -16,6 +16,9 @@
     br{
         display: none;
     }
+    .p2{
+        display:none;
+    }
     .hgrids{
         color: #FCF7F2;
         float: left;
@@ -25,16 +28,16 @@
     }
     .hgrids>h1{
         font-style: italic  ;
-        font-size: 15px;
+        font-size: 18px;
     }
     .hgrids>p{
-        font-size: 12px;
+        font-size: 15px;
     }
     .hgrids>img{
         width: 800px;
     }
     .hbutton{
-        padding: 5px ;
+        padding: 10px ;
         background-color: #623F28;
         border: none;
         border-radius: 5px;
@@ -56,6 +59,12 @@
         color: #623F28;
         text-align: center;
     }
+    .titleR>h3{
+        font-size: 18px;
+    }
+    .titleR>p{
+        font-size: 15px;
+    }
     .pg001{
         font-weight: lighter;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -76,7 +85,7 @@
     }
     .cards > .image{
         width: 100%;
-        height: 40px;
+        height: 30px;
     }
     .image > img{
         float:right;
@@ -84,9 +93,12 @@
     }
     .cards > h4 {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         color: #623F28;
         font-weight: bold;
+    }
+    .cards>p{
+        font-size: 15px;
     }
     .cards > button{
         border: none;
