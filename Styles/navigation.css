@@ -89,7 +89,7 @@ body{
     }
     .ocm:hover{
         background-image:url(../Images/navBg.png);
-        background-size: cover;
+        background-size: auto;
         color:#EAE3DF;
     }
     .closeBtn{

@@ -1,0 +1,310 @@
+@media screen and (min-width: 320px) {
+    .contentArea{
+        background-image: url(../Images/bg.png);
+        background-size:auto;
+        width: 100%;
+        height: 100vh;
+        padding-top: 80px;
+    }
+    .heroSection{
+        background-image: url(../Images/herobg.jpg);
+        background-size:cover;
+        height: 210px;
+        width: 100%;
+        margin: auto;
+    }
+    br{
+        display: none;
+    }
+    .hgrids{
+        color: #FCF7F2;
+        float: left;
+        padding-top: 11px;
+        padding-left: 20px;
+        width: 350px;
+    }
+    .hgrids>h1{
+        font-style: italic  ;
+        font-size: 15px;
+    }
+    .hgrids>p{
+        font-size: 12px;
+    }
+    .hgrids>img{
+        width: 800px;
+    }
+    .hbutton{
+        padding: 5px ;
+        background-color: #623F28;
+        border: none;
+        border-radius: 5px;
+        color: #FCF7F2;
+        font-weight: bold;
+        cursor:pointer;
+    }
+    .hbutton:active{
+        background-color: #FCF7F2;
+        color: #623F28;
+    }
+    
+    .rSection{
+        padding: 10px;
+    }
+    .titleR{
+        margin: auto;
+        width: 90%;
+        color: #623F28;
+        text-align: center;
+    }
+    .pg001{
+        font-weight: lighter;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .cardsform{
+        margin: auto;
+        padding: 2px;
+        width: 100%;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards{
+        box-shadow: 1px 1px 10px rgb(185, 185, 185);
+        border-radius: 10px;
+        background-color: #FCF7F2;
+        padding: 20px;
+    }
+    .cards > .image{
+        width: 100%;
+        height: 40px;
+    }
+    .image > img{
+        float:right;
+        width: 70px;
+    }
+    .cards > h4 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        color: #623F28;
+        font-weight: bold;
+    }
+    .cards > button{
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #623F28;
+        color:#FCF7F2;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .cards > button:hover{
+        background:#FCF7F2;
+        color: #623F28;
+        border: 1px solid #623F28;
+    }
+}
+
+
+@media  screen and (min-width: 610px) {
+    .contentArea{
+        background-image: url(../Images/bg.png);
+        background-size:auto;
+        width: 100%;
+        height: 100vh;
+        padding-top: 80px;
+    }
+    .heroSection{
+        background-image: url(../Images/herobg.jpg);
+        background-size:cover;
+        height: 500px;
+        width: 100%;
+        margin: auto;
+    }
+    .hgrids{
+        color: #FCF7F2;
+        float: left;
+        padding-top: 30px;
+        padding-left: 50px;
+        width: 500px;
+    }
+    .hgrids>h1{
+        font-style: italic  ;
+    }
+    .hgrids>p{
+        font-size: 18px;
+    }
+    .hgrids>img{
+        width: 800px;
+    }
+    .hbutton{
+        padding: 10px ;
+        background-color: #623F28;
+        border: none;
+        border-radius: 5px;
+        color: #FCF7F2;
+        font-weight: bold;
+        cursor:pointer;
+    }
+    .hbutton:active{
+        background-color: #FCF7F2;
+        color: #623F28;
+    }
+    
+    .rSection{
+        padding: 10px;
+    }
+    .titleR{
+        margin: auto;
+        width: 50%;
+        color: #623F28;
+        text-align: center;
+    }
+    .pg001{
+        font-weight: lighter;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .cardsform{
+        margin: auto;
+        padding: 10px;
+        width: 80%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards{
+        box-shadow: 1px 1px 10px rgb(185, 185, 185);
+        border-radius: 10px;
+        background-color: #FCF7F2;
+        padding: 20px;
+    }
+    .cards > .image{
+        width: 100%;
+        height: 40px;
+    }
+    .image > img{
+        float:right;
+        width: 70px;
+    }
+    .cards > h4 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        color: #623F28;
+        font-weight: bold;
+    }
+    .cards > button{
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #623F28;
+        color:#FCF7F2;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .cards > button:hover{
+        background:#FCF7F2;
+        color: #623F28;
+        border: 1px solid #623F28;
+    }
+}
+@media screen and (min-width: 1024px){
+    .contentArea{
+        background-image: url(../Images/bg.png);
+        background-size:auto;
+        width: 100%;
+        height: 100vh;
+        padding-top: 80px;
+    }
+    .heroSection{
+        background-image: url(../Images/herobg.jpg);
+        background-size:cover;
+        height: 600px;
+        width: 100%;
+        margin: auto;
+    }
+    .hgrids{
+        color: #FCF7F2;
+        float: left;
+        padding-top: 80px;
+        padding-left: 50px;
+        width: 500px;
+    }
+    .hgrids>h1{
+        font-style: italic  ;
+    }
+    .hgrids>p{
+        font-size: 18px;
+    }
+    .hgrids>img{
+        width: 800px;
+    }
+    .hbutton{
+        padding: 10px ;
+        background-color: #623F28;
+        border: none;
+        border-radius: 5px;
+        color: #FCF7F2;
+        font-weight: bold;
+        cursor:pointer;
+    }
+    .hbutton:active{
+        background-color: #FCF7F2;
+        color: #623F28;
+    }
+    
+    .rSection{
+        padding: 10px;
+    }
+    .titleR{
+        margin: auto;
+        width: 50%;
+        color: #623F28;
+        text-align: center;
+    }
+    .pg001{
+        font-weight: lighter;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .cardsform{
+        margin: auto;
+        padding: 10px;
+        width: 60%;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards{
+        box-shadow: 1px 1px 10px rgb(185, 185, 185);
+        border-radius: 10px;
+        background-color: #FCF7F2;
+        padding: 50px;
+    }
+    .cards > .image{
+        width: 100%;
+        height: 40px;
+    }
+    .image > img{
+        float:right;
+        width: 70px;
+    }
+    .cards > h4 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        color: #623F28;
+        font-weight: bold;
+    }
+    .cards > button{
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #623F28;
+        color:#FCF7F2;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .cards > button:hover{
+        background:#FCF7F2;
+        color: #623F28;
+        border: 1px solid #623F28;
+    }
+}
+

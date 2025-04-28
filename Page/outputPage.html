@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../Styles/navigation.css">
+</head>
+<body>
+    <!-- Navigation Bar-->
+    <div class="navMainContainer">
+        <div class="nav001"> <!-- 1st Div-->
+            <img src="Images/Logo.png" alt=""/>
+        </div>
+        <div class="nav002 tblt"><!-- 2nd Div-->
+            <p class="ttl001">International Araloosa Horse Registry</p>   
+        </div>
+        <div class="nav003"><!--3rd Div-->
+            <button class="menuBtn" id="menuBtn" onclick="offcanvasToggle(true)"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="nav004"><!--4th Div-->
+            <a href="#" id="Deskactive"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-horse-head"></i> The Araloosa</a>
+            <a href="#"><i class="fas fa-file"></i> Registration</a>
+            <a href="#"><i class="fas fa-newspaper"></i> News and Events</a>
+            <a href="#"><i class="fas fa-phone"></i> Contact Us</a>
+        </div>
+    </div>
+
+
+    <!-- Overlay -->
+    <div for="toggle" class="overlay" id="overlay" onclick="offcanvasToggle(false)"></div>
+    <!-- offCanvas -->
+    <div class="offcanvas" id="offcanvas">
+        <div class="olc">
+            <img src="Images/Logo.png" alt="" class="ol">
+        </div>
+        <button type="button" class="closeBtn" id="closeBtn" onclick="offcanvasToggle(false)"></button>
+        <div class="offcanvasMenu">
+            <div class="ocmCont">
+                <button class="ocm" id="active"><i class="fas fa-home"></i> Home</button>
+            </div>
+            <div class="ocmCont">
+                <button class="ocm"><i class="fas fa-horse-head"></i>The Araloosa</button>
+            </div>
+            <div class="ocmCont">
+                <button class="ocm"><i class="fas fa-file"></i> Registration</button>
+            </div>
+            <div class="ocmCont">
+                <button class="ocm"><i class="fas fa-newspaper"></i> News and Events</button>
+            </div>
+            <div class="ocmCont">
+                <button class="ocm"><i class="fas fa-phone"></i> Contact Us</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ************** -->
+    <div class="breederDisplay">
+        
+    </div>
+</body>
+</html>
